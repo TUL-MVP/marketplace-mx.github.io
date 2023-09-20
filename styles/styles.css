@@ -1,0 +1,55 @@
+/**{border: solid 1px red;}*/
+body {
+    background:rgb(18, 17, 57);
+}
+
+.first-section{
+    background-image: url(background/detail-first-section3.svg);
+    background-size: COVER;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.second-section{
+    background-image: url(background/img-second-section.svg);
+}
+
+.linea {
+    border-top: 5px solid rgb(27, 239, 77);
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+  }
+
+.third-section{
+    background-image: url(background/datos-background.svg);
+    background-repeat: no-repeat;
+}
+
+.fourth-section{
+    background-image: url(background/marketing-background.svg);
+    background-repeat: no-repeat;
+}
+
+.fifth-section{
+    background-image: url(background/operations-background.svg);
+    background-repeat: no-repeat;
+}
+
+ul#tabs li.check {
+    list-style-image: url('background/check-icon.svg');
+    }
+
+/*Form styles*/
+
+
+.form {
+    background:rgb(231,241,251) !important;
+}
+
+
+@media (max-width: 1180px) {
+    .first-section img{
+        position: relative
+    }
+}
